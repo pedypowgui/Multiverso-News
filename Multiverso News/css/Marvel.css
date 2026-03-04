@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    padding: 0;
+    background-color: beige;
+    font-family: Arial;
+}
+
+a{
+    padding: 0;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul{
+    gap: 100px;  
+    display: flex;
+    margin: 0 0 14px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    color: rgb(236, 235, 255);
+}
+
+section{
+    
+}
+
+.container{
+    gap: 30px;
+    display: flex;
+    max-width: 1080px;
+    text-align: justify;
+    margin: 0 auto 20px auto;
+}
+
+.coluna1{
+    flex: 7;
+    min-width: 0;
+    text-align: justify;
+}
+
+.coluna2{
+    flex: 3;
+    min-width: 0;
+    margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(152, 152, 152);
+}
+
+
+.multiversoMarvel{
+    width: 100%;
+    position: relative;
+}
+
+.multiversoNews{
+    all: unset;
+    width: 450px;
+    height: auto;
+}
+
+.logoMarvel{
+    all: unset;
+    transform: rotate(-10deg);
+    top: 50px;
+    left: 880px;
+    z-index: 10;
+    width: 130px;
+    position: absolute;
+}
