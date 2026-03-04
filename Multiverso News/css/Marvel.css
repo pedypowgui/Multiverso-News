@@ -5,8 +5,8 @@ header{
 
 body{
     padding: 0;
-    background-color: beige;
-    font-family: Arial;
+    font-family: arial;
+    background-color: rgb(244, 244, 231);
 }
 
 a{
@@ -26,37 +26,12 @@ ul{
     color: rgb(236, 235, 255);
 }
 
-section{
-    
-}
-
-.container{
-    gap: 30px;
-    display: flex;
-    max-width: 1080px;
-    text-align: justify;
-    margin: 0 auto 20px auto;
-}
-
-.coluna1{
-    flex: 7;
-    min-width: 0;
-    text-align: justify;
-}
-
-.coluna2{
-    flex: 3;
-    min-width: 0;
-    margin-top: 5px;
-}
-
 .footer{
     display: flex;
     text-align: center;
     justify-content: center;
     color: rgb(152, 152, 152);
 }
-
 
 .multiversoMarvel{
     width: 100%;
@@ -65,16 +40,32 @@ section{
 
 .multiversoNews{
     all: unset;
-    width: 450px;
+    width: 550px;
     height: auto;
 }
 
 .logoMarvel{
     all: unset;
-    transform: rotate(-10deg);
-    top: 50px;
-    left: 880px;
+    top: 3.5rem;
+    left: 55.4rem;
     z-index: 10;
-    width: 130px;
+    width: 150px;
     position: absolute;
+    transform: rotate(-8deg);
+}
+
+.quadros{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.colunaEsquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.colunaDireita{
+    display: flex;
+    flex-direction: column;
 }

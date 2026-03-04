@@ -7,7 +7,7 @@ body{
     padding: 0;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), /* Cor gradiente linear, de cima para baixo */
-        url("/Aula01/img/geral/stars.jpg");
+        url("../img/geral/stars.jpg");
     font-family: Arial;
 }
 
