@@ -46,8 +46,8 @@ ul{
 
 .logoMarvel{
     all: unset;
-    top: 3.5rem;
-    left: 66rem;
+    top: 60%;
+    left: 57%;
     z-index: 10;
     width: 150px;
     position: absolute;
@@ -63,9 +63,11 @@ ul{
 .colunaEsquerda{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .colunaDireita{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
