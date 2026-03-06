@@ -1,0 +1,70 @@
+body{
+    font-family: arial;
+    background-color: rgb(244, 244, 231);
+}
+
+a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul{
+    gap: 100px;  
+    display: flex;
+    margin: 0 0 14px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.naoSelecionado{
+    filter: grayscale(100%);
+}
+
+.selecionado{
+    opacity: 0;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.multiversoNews{
+    width: 550px;
+    height: auto;
+}
+
+.noticias{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(152, 152, 152);
+}
+
+.logoMarvel{
+    top: 60%;
+    left: 57%;
+    z-index: 10;
+    width: 150px;
+    position: absolute;
+    transform: rotate(-8deg);
+}
+
+.logoDc{
+    top: -70%;
+    left: 69%;
+    z-index: 0;
+    width: 230px;
+    position: absolute;
+    transform: rotate(17deg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 67%, 0% 97%); /* Canto superior esquerdo, canto superior direito, canto inferior direito, canto inferior esquerdo*/
+}
