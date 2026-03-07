@@ -75,17 +75,63 @@ article{
     margin-bottom: 15px;
 }
 
-.slide{
-    width: 1080px;
-    height: 500px;
+button{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+button:hover{
+    background-color: rgba(0, 255, 255, 0.523);
+}
+
+.botaoProximo{
+    right: 30px;
+    width: 30px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 42px;
+    color: rgb(95, 223, 255);
+    background-color: transparent;
+    border: 2px solid rgb(116, 211, 255);
+    transition: background-color 200ms ease;
+    box-shadow: 0px 0px 5px rgb(0, 26, 255), 0px 0px 10px rgb(0, 174, 255);
+}
+
+.botaoVoltar{
+    left: 30px;
+    width: 30px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 42px;
+    color: rgb(95, 223, 255);
+    background-color: transparent;
+    border: 2px solid rgb(116, 211, 255);
+    transition: background-color 200ms ease;
+    box-shadow: 0px 0px 5px rgb(0, 26, 255), 0px 0px 10px rgb(0, 174, 255);
+}
+
+.slides{
+    gap: 40px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img{
+    margin: 0 0 0 40px;
+    width: 1000px;
+    height: 450px;
 }
 
 .carrossel{
     display: flex;
     padding: 30px;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(0, 0, 255, 0.179), rgba(0, 0, 0, 0));
+    overflow: hidden;
+    max-width: 1080px;
+    position: relative;
+    margin: 0 auto 0 auto;
 }
 
 .selected{
